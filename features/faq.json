@@ -1,0 +1,62 @@
+[
+  {
+    "body": "Menggunakan log in dan verifikasi nomor telepon, kamu dapat mengakses semua video materi pembelajaran, mengerjakan soal juga  melihat video pembahasan soal.",
+    "title": "Apa saja fitur yang saya dapatkan apabila saya adalah regular member?"
+  },
+  {
+    "body": "Kamu bebas mengakses semua konten baik materi pembelajaran, mengerjakan soal  ataupun melihat video pembahasan soal. Selain itu, dengan verifikasi nomor telepon, kamu akan mendapatkan tambahan membership sebanyak 6 bulan.",
+    "title": "Apa Keuntungan menjadi premium membership?"
+  },
+  {
+    "body": "Untuk melihat pembahasan Try Out, kamu harus terlebih dahulu mengerjakan Try Out tersebut dan melakukan verifikasi nomor telepon.",
+    "title": "Mengapa saya tidak dapat melihat pembahasan Try Out?"
+  },
+  {
+    "body": "Untuk saat ini, Zenius belum bisa ditonton dalam mode dark",
+    "title": "Apakah Zenius bisa ditonton dengan dark mode?"
+  },
+  {
+    "body": "Karena ada beberapa tipe soal yang jawabannya tidak dalam bentuk pilihan ganda sehingga tidak ada opsi menjawab, dan ada juga video materi yang dapat kamu tonton bersamaan dengan mengisi soal (mixed playlist)",
+    "title": "Mengapa ada video yang tidak memiliki jawaban?"
+  },
+  {
+    "body": "Agar akunmu diperlakukan sebagai akun yang sama, kamu perlu menghubungkan akun kamu, untuk informasi lebih lanjut silahkan hubungi customer service",
+    "title": "Kenapa kalau saya sign in dengan Google dengan email yang sama dengan yang terdaftar di zenius.net, akun saya diperlakukan sebagai akun yang berbeda?"
+  },
+  {
+    "body": "Untuk mengatasi masalah tersebut, kamu perlu log out terlebih dahulu, kemudian log in kembali. Masalah ini dikarenakan akun milikmu terdeteksi log in di device android lain.",
+    "title": "Kenapa saat menggunakan aplikasi Zenius, ada notifikasi “Oops, sesi anda sudah habis. Silahkan log in kembali” saat mau nonton video?"
+  },
+  {
+    "body": "Jenjang dan kurikulum akan berganti secara otomatis saat info di profilmu diganti",
+    "title": "Bagaimana jika saya ingin mengganti jenjang dan kurikulum?"
+  },
+  {
+    "body": "Pilih opsi kelas yang kamu inginkan di profile dan menu pembelajaran",
+    "title": "Bagaimana jika saya ingin melihat pelajaran kelas lain?",
+  },
+  {
+    "body": "Seluruh konten video diambil dari zenius.net dengan video yang sama. Hanya penyajiannya yang berbeda",
+    "title": "Dari manakah asal konten video aplikasi Zenius?"
+  },
+  {
+    "body": "Resolusi video zenius.net adalah 600x400, maka video disesuaikan dengan format mobile",
+    "title": "Kenapa kalau video ditonton secara full screen ada batas hitam di sebelah kanan dan kiri?"
+  },
+  {
+    "body": "Untuk ukuran video, aplikasi Zenius sama dengan zenius.net, sekitar 2MB per video, tetapi aplikasi Zenius lebih irit kuota karena halaman yang harus diload sangat sedikit",
+    "title": "Seberapa besar kuota yang diperlukan untuk menggunakan aplikasi Zenius?"
+  }, 
+  {
+    "body": "Untuk saat ini video di aplikasi Zenius belum bisa ditonton secara offline, karena fitur tersebut masih dalam pengembangan.",
+    "title": "Apakah video di aplikasi Zenius bisa ditonton offline?"
+  },
+  {
+    "body": "Soal diambil dari modul interaktif zenius.net. Untuk bab di zenius.net yang tidak memiliki modul interaktif, maka tidak ada soalnya di versi aplikasi Zenius. Untuk kode konten yang memiliki modul interaktif, maka di aplikasi Zenius akan disajikan soalnya",
+    "title": "Diambil dari manakah soal-soal latihan di aplikasi Zenius?"
+  },
+  {
+    "body": "Soal dan pembahasan UN dan UTBK dapat diakses di menu UN/UTBK, dengan soal yang utuh dan tidak dipotong. Latihan soal diberikan dalam bentuk paket soal jika modul interaktif untuk konten tersebut sudah tersedia",
+    "title": "Di manakah saya bisa mengakses soal pembahasan UN dan UTBK?"
+  }
+]
