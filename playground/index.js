@@ -11,3 +11,11 @@ var add2 = function (a, b) {
     return a + b;
 };
 var pepsi = ["Pepsi", 250, true];
+var oldCivic = {
+    name: "Civic 2001",
+    year: new Date,
+    isBroken: true,
+    summary: function () {
+        return "" + name;
+    }
+};

@@ -22,4 +22,22 @@ type Bottle = [string, number, boolean];
 
 const pepsi: Bottle = ["Pepsi", 250, true];
 
+// ==================
+
+interface Vehicle {
+  name: string;
+  year: Date;
+  isBroken: boolean;
+  summary(): string;
+}
+
+const oldCivic = {
+  name: "Civic 2001",
+  year: new Date,
+  isBroken: true,
+  summary(): string {
+    return `${name}`;
+  }
+}
+
 export {};
