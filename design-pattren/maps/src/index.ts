@@ -36,5 +36,5 @@ const company1 : Company = new Company(
 
 const myMap : MyMap = new MyMap();
 
-myMap.addUserMarker(user1);
-myMap.addUserMarker(company1);
+myMap.addMarker(user1);
+myMap.addMarker(company1);

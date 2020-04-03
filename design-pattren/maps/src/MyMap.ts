@@ -1,6 +1,13 @@
 import { Company } from "./model/Company";
 import { User } from "./model/User";
 
+interface IMappable {
+  location: {
+    lat: number,
+    lng: number,
+  }
+}
+
 export class MyMap {
   private _googleMap: google.maps.Map;
 
@@ -30,6 +37,16 @@ export class MyMap {
       position: {
         lat: company.location.lat,
         lng: company.location.lng,
+      }      
+    });
+  }
+
+  addMarker(mapable : IMappable): void {
+    new google.maps.Marker({
+      map: this._googleMap,
+      position: {
+        lat: mapable.location.lat,
+        lng: mapable.location.lng,
       }      
     });
   }
