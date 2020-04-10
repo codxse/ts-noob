@@ -1,9 +1,9 @@
-import { CsvFileReader, MatchData } from "./CsvFileReader";
+import { MatchReader, MatchData } from "./MatchReader";
 import { MatchResult } from "./MatchResult";
 
 let manUtdWins = 0;
 
-const csvReader = new CsvFileReader("./original.csv");
+const csvReader = new MatchReader("./original.csv");
 csvReader.read()
 const csvData: MatchData[] = csvReader.csvData;
 
