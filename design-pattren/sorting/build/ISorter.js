@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Sorter = /** @class */ (function () {
-    function Sorter() {
+var ISorter = /** @class */ (function () {
+    function ISorter() {
     }
-    Sorter.prototype.sort = function () {
+    ISorter.prototype.sort = function () {
         var length = this.length;
         for (var i = 0; i < length; i++) {
             for (var j = 0; j < length - i - 1; j++) {
@@ -13,6 +13,6 @@ var Sorter = /** @class */ (function () {
             }
         }
     };
-    return Sorter;
+    return ISorter;
 }());
-exports.Sorter = Sorter;
+exports.ISorter = ISorter;

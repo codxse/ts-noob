@@ -1,7 +1,10 @@
-export class NumbersCollection {
+import { ISorter } from "./ISorter";
+
+export class NumbersCollection extends ISorter {
   collection: number[];
 
   constructor(collection: number[]) {
+    super();
     this.collection = collection;
   }
 

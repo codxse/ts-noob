@@ -1,7 +1,10 @@
-export class CharactersColletion {
+import { ISorter } from "./ISorter";
+
+export class CharactersColletion extends ISorter {
   collection: string;
 
   constructor(collection: string) {
+    super();
     this.collection = collection;
   }
 

@@ -1,3 +1,5 @@
+import { ISorter } from "./ISorter";
+
 class Node {
   value: number;
   next: Node | null = null;
@@ -7,7 +9,7 @@ class Node {
   }
 }
 
-export class LinkedList {
+export class LinkedList extends ISorter {
   head: Node | null = null;
 
   add(value: number): void {
