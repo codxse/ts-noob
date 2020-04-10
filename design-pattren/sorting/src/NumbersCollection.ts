@@ -14,7 +14,7 @@ export class NumbersCollection {
   }
 
   swap(leftIndex: number, rightIndex: number): void {
-    const leftHand = this.collection[leftIndex];
+    const leftHand: number = this.collection[leftIndex];
     this.collection[leftIndex] = this.collection[rightIndex];
     this.collection[rightIndex] = leftHand;
   }

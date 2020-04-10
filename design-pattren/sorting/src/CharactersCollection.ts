@@ -14,8 +14,8 @@ export class CharactersColletion {
   }
 
   swap(leftIndex: number, rightIndex: number): void {
-    const characters = this.collection.split('');
-    const leftHand = characters[leftIndex];
+    const characters: string[] = this.collection.split('');
+    const leftHand: string = characters[leftIndex];
     characters[leftIndex] = characters[rightIndex];
     characters[rightIndex] = leftHand;
 
