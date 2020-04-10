@@ -6,18 +6,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var fs_1 = __importDefault(require("fs"));
 var CsvFileReader = /** @class */ (function () {
     function CsvFileReader(fileName) {
-        this.csvData = [];
+        this.data = [];
         this.fileName = fileName;
     }
     CsvFileReader.prototype.read = function () {
-        this.csvData = fs_1.default
+        this.data = fs_1.default
             .readFileSync(this.fileName, { encoding: "utf-8" })
             .split("\n")
-            .map(this._splitLine)
-            .map(this.mapRow);
-    };
-    CsvFileReader.prototype._splitLine = function (row) {
-        return row.split(",");
+            .map(function (row) {
+            return row.split(",");
+        });
     };
     return CsvFileReader;
 }());
