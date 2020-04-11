@@ -56,7 +56,7 @@ class _App extends React.Component<IAppProps, IAppState> {
           key={todo.id}
           onClick={(): void => this._onClickTodo(todo.id)}
         >
-          {this.state.isFetcing ? <h1>Loading...</h1> : todo.title}
+          {todo.title}
         </div>
       )
     });
@@ -70,9 +70,7 @@ class _App extends React.Component<IAppProps, IAppState> {
         >
           Fetch
         </button>
-        {
-          this._renderList()
-        }
+        { this.state.isFetcing ? <h1>Loading</h1> : this._renderList() }
       </div>
     );
   }
